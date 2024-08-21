@@ -11,14 +11,16 @@ This project demonstrates the use of various front-end technologies to build a u
 
 ### 1. Application Overview
 
-![Application Overview](https://github.com/SyedMoin-lab/Front-End-Trainee-Assignment/1.png)
+![Application Overview](public/1.png)
 
 
 *Caption: A snapshot of the application's main user interface.*
 
 ### 2. Chart Visualization
 
-![Chart Visualization](./images/chart-visualization.png)
+![Chart Visualization](public/2.png)
+
+![Chart Visualization](public/3.png)
 
 *Caption: A chart demonstrating data visualization capabilities.*
 
