@@ -11,7 +11,8 @@ This project demonstrates the use of various front-end technologies to build a u
 
 ### 1. Application Overview
 
-![Application Overview](./images/application-overview.png)
+![Application Overview](https://github.com/SyedMoin-lab/Front-End-Trainee-Assignment/1.png)
+
 
 *Caption: A snapshot of the application's main user interface.*
 
