@@ -1,68 +1,113 @@
-Live Project Link: https://cnapp-dashboard.vercel.app/
-
-React Project: "Accuknox" - README
-Overview
-This project is a React-based dashboard application that leverages Material-UI, Chart.js, and FontAwesome for its UI components and icons. It includes various widgets for cloud account monitoring and security assessments.
-
-Prerequisites
-Before running the project, ensure you have the following installed on your local machine:
-
-Node.js (version 14.x or higher)
-npm (Node Package Manager) or yarn
-
-Installation
-1. Clone the Repository
-Clone the repository to your local machine using the following command:
-
-  > git clone https://github.com/your-username/accuknox.git
-
-2. Navigate to the Project Directory
-   
-  > cd accuknox
-
-3.  Install Node modules
-
-   > npm i
-
-4. Install Dependencies
-Install the necessary dependencies using npm or yarn:
-
-  > npm install [nameAndVersion]
-
-Running the Application
-1. Start the Development Server
-To run the project in development mode, use the following command:
-
-  > npm start
-
-This will start the development server, and the application will be available at http://localhost:3000/.
-
-2. Building for Production
-To build the project for production, use:
-
-  > npm run build
-> 
-This will create an optimized build of the application in the build/ directory.
-
-3. Running Tests
-To run the test suite, use:
-
-  > npm test
+![Application Overview](https://www.accuknox.com/wp-content/uploads/2023/06/accuknox-logo-2.png)
 
 
-Project Structure
-public/: Contains the static assets and the main index.html.
-src/: Contains the main source code for the React application.
-components/: Reusable React components.
-App.js: Main application component.
-index.js: Entry point for the React application.
-package.json: Lists all the dependencies and scripts for the project.
-Dependencies
-The project relies on the following key dependencies:
+# Front-End Trainee Assignment
 
-React (react, react-dom): Core library for building user interfaces.
-Material-UI (@mui/material, @mui/icons-material): Provides a collection of React components that implement Google’s Material Design.
-Emotion (@emotion/react, @emotion/styled): Library for writing CSS styles with JavaScript.
-FontAwesome (@fortawesome/react-fontawesome, @fortawesome/free-solid-svg-icons): Icon library.
-Chart.js (chart.js, react-chartjs-2): Library for creating charts.
-Testing Libraries (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event): Utilities for testing React components.
+## Overview
+
+This project demonstrates the use of various front-end technologies to build a user-friendly and interactive application. The application leverages React and JavaScript along with several libraries and tools to create a dynamic user interface, implement Material Design, manage styling, display charts, and ensure code quality through testing.
+
+## Screenshots
+
+### 1. Application Overview
+
+![Application Overview](./images/application-overview.png)
+
+*Caption: A snapshot of the application's main user interface.*
+
+### 2. Chart Visualization
+
+![Chart Visualization](./images/chart-visualization.png)
+
+*Caption: A chart demonstrating data visualization capabilities.*
+
+## Project Structure
+
+### 1. **React (react, react-dom)**
+
+- **Purpose**: React is the core library used to build the user interface. It allows for the creation of reusable components and efficient updates to the UI based on state changes.
+- **Installation**: 
+  ```bash
+  npm install react react-dom
+  ```
+
+### 2. **Material-UI (@mui/material, @mui/icons-material)**
+
+- **Purpose**: Material-UI provides a collection of React components that implement Google’s Material Design. It helps create a modern and responsive user interface.
+- **Installation**: 
+  ```bash
+  npm install @mui/material @mui/icons-material
+  ```
+
+### 3. **Emotion (@emotion/react, @emotion/styled)**
+
+- **Purpose**: Emotion is used for writing CSS styles with JavaScript. It allows for dynamic styling and theming of components.
+- **Installation**: 
+  ```bash
+  npm install @emotion/react @emotion/styled
+  ```
+
+### 4. **FontAwesome (@fortawesome/react-fontawesome, @fortawesome/free-solid-svg-icons)**
+
+- **Purpose**: FontAwesome provides a library of icons that can be easily integrated into the application to enhance user experience.
+- **Installation**: 
+  ```bash
+  npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+  ```
+
+### 5. **Chart.js (chart.js, react-chartjs-2)**
+
+- **Purpose**: Chart.js is used for creating charts and visualizing data. `react-chartjs-2` integrates Chart.js with React, allowing you to create interactive charts.
+- **Installation**: 
+  ```bash
+  npm install chart.js react-chartjs-2
+  ```
+
+### 6. **Testing Libraries (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event)**
+
+- **Purpose**: These libraries are used for testing React components. They ensure that components render correctly and user interactions work as expected.
+- **Installation**: 
+  ```bash
+  npm install @testing-library/react @testing-library/jest-dom @testing-library/user-event
+  ```
+
+## How It Works
+
+1. **Setup and Installation**
+   - Clone the repository: `git clone <repository-url>`
+   - Navigate to the project directory: `cd <project-directory>`
+   - Install dependencies: `npm install`
+
+2. **Running the Application**
+   - Start the development server: `npm start`
+   - Open your browser and go to `http://localhost:3000` to view the application.
+
+3. **Component Structure**
+   - The application is structured around reusable React components.
+   - Components are styled using Emotion and Material-UI to ensure a consistent look and feel.
+
+4. **Data Visualization**
+   - Chart.js is used to render charts. Data for these charts is managed and passed to chart components as props.
+
+5. **Testing**
+   - Unit tests are written using @testing-library/react and @testing-library/jest-dom.
+   - Run tests with: `npm test`
+
+## Example Commands
+
+- **Start Development Server**: `npm start`
+- **Run Tests**: `npm test`
+- **Build for Production**: `npm run build`
+
+## Contributing
+
+If you wish to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License.
